@@ -8,7 +8,7 @@ function upDate(previewPic) {
 
 }
 function unDo() {
-    X = document.getElementById('image');
+    var X = document.getElementById('image');
     X.style.backgroundImage = "url()";
     document.getElementById('image').innerHTML = "Hover over an image below to display here";
 
